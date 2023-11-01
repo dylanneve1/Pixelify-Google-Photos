@@ -1,0 +1,81 @@
+<resources>
+
+    <!--Things to update in new versions:
+
+    build.gradle: versionCode
+    build.gradle: versionName
+
+    update_info.json
+
+    changelog
+    -->
+
+    <string name="app_name">Pixelify Google Photos</string>
+
+    <!--activity_main.xml-->
+    <string name="reset">还原</string>
+    <string name="device_to_spoof">设备模拟</string>
+    <string name="spoofs_build_and_features">修改 build.prop 下的设备参数</string>
+    <string name="customize_feature_flags">自定义功能参数</string>
+    <string name="feature_flags_changed">功能参数已更改！</string>
+    <string name="spoof_only_in_google_photos">确保仅对 Google 相册进行 HOOK</string>
+    <string name="spoof_only_in_google_photos_desc">因 LSPosed 中仅使用白名单，预设该模组仅针对 Google 相册启用，
+     如果您想在其他应用中使用它，请保持此开关 <b>关闭</b>.</string>
+    <string name="override_rom_feature_levels">覆盖 ROM 自订功能</string>
+    <string name="override_rom_feature_levels_desc">如果使用者选择较低版本的 Pixel，
+    将避免部分 ROM 内含有模拟 Pixel 的功能影响 Pixelify Google Photos <b>(推荐启用)</b></string>
+    <string name="force_stop_google_photos">强制停止\nGoogle 相册</string>
+    <string name="module_not_enabled">
+        \n
+        此模组似乎未启用。\n
+        请在 LSPosed / EdXposed 中启用它，然后重新启动。\n
+        如果已启用，可能需强制强制停止 Pixelify Google Photos 后重启。\n
+        如果没用，请卸载并重新安装。
+    </string>
+    <string name="close">关闭</string>
+    <string name="open_google_photos">开启 Google 相册</string>
+    <string name="telegram_group">Telegram 讨论组！</string>
+    <string name="update_available">有最新的更新可用！</string>
+
+    <!--menu_activity_main.xml-->
+    <string name="changelog">更改日志</string>
+
+    <!--ActivityMain.xml-->
+    <string name="please_force_stop_google_photos">请强制停止 Google 相册以使其生效。</string>
+    <string name="export_config">导入配置</string>
+    <string name="export_config_desc">备份或与他人分享此模组的设定。\n
+        点选 \"储存\" 后将提示选择一个位置以将设定导出为 JSON 文件。
+    </string>
+    <string name="export_complete">导入成功!</string>
+    <string name="share">分享</string>
+    <string name="select_a_location">选择要储存的位置</string>
+    <string name="share_config_file">共享配置</string>
+    <string name="import_config">导入配置</string>
+    <string name="import_config_desc">点选后请选择要导入的配置</string>
+    <string name="share_error">分享错误纪录!</string>
+    <string name="read_error">读取错误! 请确认是否有选择适合的文件!</string>
+    <string name="import_complete">导入成功!</string>
+    <string name="advanced_options">进阶设定</string>
+
+    <!--feature_customize.xml-->
+    <string name="save">储存</string>
+
+    <!--advanced_options_activity.xml-->
+    <string name="enable_verbose_logging">开启详细日志记录</string>
+    <string name="enable_verbose_logging_desc">LSPosed / EdXposed 日志和 Android logcat 中的错误日志。\n
+        如果要导入日志，请开启 LSPosed / EdXposed -> 日志 -> 顶部储存图示。然后分享储存后的文件或压缩包。
+    </string>
+    <string name="spoof_android_version">模拟 Android 版本</string>
+    <string name="spoof_android_version_desc">不要设定高于您当前版本 Android 的版本。\n
+        例如，如果您的 Android 版本是 <b>Pie</b>，那您可以设定<b>Nougat / Oreo / Pie</b>，而不能设定以下的版本 Q / R / S.
+    </string>
+    <string name="this_might_cause_crash">这可能会导致 Google 相册立即崩溃！</string>
+    <string name="dont_spoof_android_version">不要模拟 Android 的版本 <b>(推荐)</b></string>
+    <string name="follow_spoof_device_version">与选择模拟的设备版本一致</string>
+    <string name="manually_set_android_version">手动设定 Android 的版本</string>
+
+    <!--Utils.kt-->
+    <string name="killing_please_wait">强制停止中…请稍候。</string>
+    <string name="failed_to_stop_package">无法自动强制停止。请手动强制停止。</string>
+    <string name="failed_to_launch_package">无法自动启动。请手动启动。</string>
+</resources>
