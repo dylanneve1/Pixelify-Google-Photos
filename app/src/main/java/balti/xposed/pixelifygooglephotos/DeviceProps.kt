@@ -197,7 +197,7 @@ object DeviceProps {
         DeviceEntries("None", hashMapOf(), "None", null),
 
         DeviceEntries(
-            "Pixel XL (original)", hashMapOf(
+            "Pixel XL", hashMapOf(
                 Pair("BRAND", "google"),
                 Pair("MANUFACTURER", "Google"),
                 Pair("DEVICE", "marlin"),
@@ -216,7 +216,7 @@ object DeviceProps {
         ),
 
         DeviceEntries(
-            "Pixel 5 (Storage saver)", hashMapOf(
+            "Pixel 5", hashMapOf(
                 Pair("BRAND", "google"),
                 Pair("MANUFACTURER", "Google"),
                 Pair("DEVICE", "redfin"),
@@ -235,7 +235,7 @@ object DeviceProps {
         ),
 
         DeviceEntries(
-            "Pixel Fold (wip)", hashMapOf(
+            "Pixel Fold", hashMapOf(
                 Pair("BRAND", "google"),
                 Pair("MANUFACTURER", "Google"),
                 Pair("DEVICE", "felix"),
@@ -254,7 +254,7 @@ object DeviceProps {
         ),
 
         DeviceEntries(
-            "Pixel Tablet (wip)", hashMapOf(
+            "Pixel Tablet", hashMapOf(
                 Pair("BRAND", "google"),
                 Pair("MANUFACTURER", "Google"),
                 Pair("DEVICE", "tangorpro"),
@@ -273,7 +273,7 @@ object DeviceProps {
         ),
 
         DeviceEntries(
-            "Pixel 7 Pro (Google 1 VPN)", hashMapOf(
+            "Pixel 7 Pro", hashMapOf(
                 Pair("BRAND", "google"),
                 Pair("MANUFACTURER", "Google"),
                 Pair("DEVICE", "cheetah"),
@@ -294,7 +294,7 @@ object DeviceProps {
         ),
 
         DeviceEntries(
-            "Pixel 8 (wip)", hashMapOf(
+            "Pixel 8", hashMapOf(
                 Pair("BRAND", "google"),
                 Pair("MANUFACTURER", "Google"),
                 Pair("DEVICE", "shiba"),
@@ -316,7 +316,7 @@ object DeviceProps {
         ),
 
         DeviceEntries(
-            "Pixel 8 Pro (wip)", hashMapOf(
+            "Pixel 8 Pro", hashMapOf(
                 Pair("BRAND", "google"),
                 Pair("MANUFACTURER", "Google"),
                 Pair("DEVICE", "husky"),
